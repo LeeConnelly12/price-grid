@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ['./index.html', './main.js'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Karla', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         teal: {
           600: 'hsl(179, 62%, 43%)',
