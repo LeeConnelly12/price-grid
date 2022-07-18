@@ -10,6 +10,7 @@ module.exports = {
       },
       colors: {
         teal: {
+          500: 'hsl(179, 47%, 52%)',
           600: 'hsl(179, 62%, 43%)',
         },
         lime: {
